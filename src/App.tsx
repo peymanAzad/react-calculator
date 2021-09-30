@@ -1,15 +1,13 @@
-import React from "react";
-import logo from "./logo.svg";
 // import "./App.css";
 import "@fontsource/roboto/300.css";
 import "@fontsource/roboto/400.css";
 import "@fontsource/roboto/500.css";
 import "@fontsource/roboto/700.css";
-import Appbar from "./Appbar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-import { ColorModeContext } from "./ColorModeContext";
-import HeroSection from "./HeroSection";
+import React from "react";
+import Appbar from "./Appbar";
 import Calculator from "./calculator/Calculator";
+import { ColorModeContext } from "./ColorModeContext";
 import { themeOptionsDark, themeOptionsLight } from "./themeConf";
 
 export default function ToggleColorMode() {

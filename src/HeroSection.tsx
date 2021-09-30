@@ -1,13 +1,6 @@
-import { Box, Paper, styled, Typography } from "@mui/material";
+import { Box, styled, Typography } from "@mui/material";
 import { useState } from "react";
 import backgndImg from "./Background.png";
-
-const Item = styled(Paper)(({ theme }) => ({
-	...theme.typography.body2,
-	padding: theme.spacing(1),
-	textAlign: "center",
-	color: theme.palette.text.secondary,
-}));
 
 const HeroImg = styled("div")(({ theme }) => ({
 	backgroundImage: `url(${backgndImg})`,
